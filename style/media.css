@@ -1,0 +1,110 @@
+@media screen and  (max-width: 768px) {
+		#section-slider .swiper-button-next,
+	#section-slider .swiper-button-prev 
+	 {position: absolute; top: 78%; }
+
+	#our-command .swiper-button-next, 
+	#our-command .swiper-button-prev 
+ {position: absolute; top: 60%; }
+
+}
+
+@media screen and (max-width: 576px) { 
+	.modal-wrapper {flex-direction: column; }
+	.myModal {margin-top: -30%;}
+	.telephone-right__box {
+		margin: 0 auto; 
+		display: block;
+	}
+	.center-header__image { margin-top: 0px;}
+	.center-header__image img {
+		width: 100%;
+		height: auto;
+	}
+	.header__title div:nth-child(1) {
+    font-size: 33px;
+    line-height: 44px;
+	}
+	.header__title div:nth-child(2) {
+    font-size: 22px;
+    line-height: 38px;
+	}
+	.row_party {
+		justify-content: center;
+	}
+	#circles-party {width: 90%;}
+	.title-list {font-size: 30px;}
+	.row-boxes {justify-content: center; }
+	.col1, .col2, .col3 {margin: 5px;}
+	.main-information {width: 92%;}
+	
+
+	
+	.left-bg__feedback {max-width: 100%;}
+	#slider-feedback {
+		position: relative;
+		margin-left: 0;
+		left: -10px;
+		top: 0;
+		margin: 164px auto;
+	}
+	.left-bg__feedback {background-position: center;}
+	.footer_global {flex-direction: column;}
+	.footer_logo,
+	.footer_contacts, 
+	.footer_social {
+		display: flex;
+		margin: 0 auto;
+		justify-content: center;
+	}
+	.footer_contacts {
+		flex-direction: column;
+		justify-content: center;
+	}
+	.row-boxes {width: 100% !important;}
+	.center-header__image img {width: 60%;}
+	
+
+	/*slider=======*/
+	#section-slider .swiper-button-next,
+	#section-slider .swiper-button-prev 
+	 {position: absolute; top: 70%; }
+
+	#our-command .swiper-button-next, 
+	#our-command .swiper-button-prev 
+ {position: absolute; top: 50%; }
+ /*slider++++=*/
+ }
+
+
+
+@media screen and  (max-width: 992px) {
+	.right__bg img{
+		display: block;
+		margin: 0 auto;
+	}
+	.left-bg__feedback {margin: 0 auto;}
+	.right-wrapper_feedback {
+		margin: 30px auto;
+		text-align: center;
+	}
+	.row-boxes {width: 90%; justify-content: space-around;}
+	.col1, .col2 {margin-bottom: 20px;}
+ }
+
+
+
+@media screen and  (max-width: 1200px) { 
+	.right__bg img{
+		display: block;
+		margin: 0 auto;
+	}
+	.left__list,
+	.right__bg {
+		display: block;
+		margin: 0 auto;
+		width: 90%;
+	}
+	.row_party {width: 90%; margin: 0 auto;}
+
+}
